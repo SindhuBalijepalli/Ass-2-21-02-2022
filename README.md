@@ -1,2 +1,13 @@
-# Ass-2-21-02-2022
-inverse of right angle triangle 
+n=int(input("enter a number:"))
+for i in range(1,n+1):
+    for j in range(i,n+1):
+        print("*",end=" ")
+    print("\n")
+    
+    o/p:
+    * * * * *
+    * * * *
+    * * *
+    * * 
+    *
+    
